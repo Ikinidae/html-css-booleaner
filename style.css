@@ -1,17 +1,24 @@
+body {
+    margin: 0;
+}
+
 /* Logo */
-div {
+.div1 {
     height: 120px;
     background-image: url(img/pattern.png);
     background-color: #4ea0ff;
-    background-repeat: repeat;
 }
 
 .logo {
     width: 250px;
-    padding: 50px 40px 0 0;
+    padding: 50px 40px 30px 20px;
 }
 
 /* Titolo e immagini */
+header {
+    padding-left: 10px;
+}
+
 h1 {
     font-size: 55px;
     margin-bottom: 0px;
@@ -36,6 +43,8 @@ header span {
     margin-bottom: 30px;
 }
 
+
+
 .didascalia {
     color: black;
     margin-top: 0px;
@@ -44,6 +53,7 @@ header span {
 /* Corpo */
 main {
     font-size: 20px;
+    padding-left: 10px;
 }
 
 main span{
@@ -55,7 +65,7 @@ main span{
 }
 
 ul {
-    margin-left: -20px;
+    padding-left: 20px;
     margin-bottom: 30px;
 }
 
@@ -81,13 +91,16 @@ thead {
     background-color: #b1e5f2;
 }
 
-
 /* Testo 2 */
 .testo2 {
     margin-bottom: 40px;
 }
 
 /* Immagini finali */
+.div2{
+    padding-left: 10px;
+}
+
 .img1 {
     color: white;
     background-image: url(img/monitor.jpg);
